@@ -1,2 +1,2 @@
-class ChineseFood < foods
+class ChineseFood < ActiveRecord::Base
 end
