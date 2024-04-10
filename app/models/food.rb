@@ -4,5 +4,3 @@ class Food < ApplicationRecord
     has_many :orders, through: :order_foods
 end
 
-class JapaneseFood < Food
-end
